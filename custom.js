@@ -17,7 +17,7 @@ $(document).ready(function(){
         $('.one').fadeOut();
     });
     $('.one').click(function(evt){    
-            if(!$(evt.target).is('.win, .winh2, .winp, .winspan')) {
+            if(!$(evt.target).is('.winh2,')) {
                     $('.one').fadeOut();
              }
             });
